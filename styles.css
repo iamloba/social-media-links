@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  box-sizing: border-box;
+  border-radius: 50%;
+  padding-top: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.header {
+  background-color: hsl(0, 0%, 12%);
+  margin: 6rem 10rem;
+  border-radius: 5px;
+}
+
+h2 {
+  padding-top: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 5px;
+  color: hsl(75, 94%, 57%);
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.link {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 0 10px 0;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+p {
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+span {
+  color: #fff;
+}
+
+.link-group {
+  padding-bottom: 2rem;
+  margin: 0 1rem 0 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: hsl(0, 0%, 12%);
+  }
+  .header {
+    width: 18rem;
+    background-color: hsl(0, 0%, 8%);
+    margin: 1rem auto;
+  }
+  .link {
+    max-width: 16rem;
+  }
+  .link-group {
+    margin-left: 13px;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 1228px) {
+  .link:hover {
+    background-color: hsl(75, 94%, 57%);
+  }
+
+  .link:hover span {
+    color: hsl(0, 0%, 20%);
+  }
+}
