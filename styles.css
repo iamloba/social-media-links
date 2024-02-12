@@ -53,8 +53,9 @@ p {
   color: #fff;
 }
 
-span {
+a {
   color: #fff;
+  text-decoration: none;
 }
 
 .link-group {
