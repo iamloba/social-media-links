@@ -12,7 +12,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Screenshot](#screenshot)
     The scrrenshots of my code has been added to the image folder
   - [Links](#links)
-    Solution URL: (https://127.0.0.1:8080.com)
+    Solution URL: https://iamloba.github.io/social-media-links/
 
 - [My process](#my-process)
   i started with building my html using the letters, words and sentences that they already provided, then i went ahead and started styling one after the other. started with declaring global styles
